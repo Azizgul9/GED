@@ -5,9 +5,26 @@ header{
     height: 640px;
     width: 168px;
 }
-.carousel-caption{
-    width: 50%;
-    height: 70%;
-    opacity: 0.7;
-    background-color: #000;
+.about_section{
+    padding: 60px 0;
+    color: #fff;
+    font-size: 18px;
+}
+.about_section h1{
+    font-size: 20px;
+}
+.stick_design{
+    height: 5px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 45%;
+}
+.img_bg{
+   height: 600px; 
+   width: 100%;
+   position: sticky;
+}
+.our_projects{
+    height: 200px;
 }
