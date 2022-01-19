@@ -27,7 +27,7 @@ header{
 }
 .parallax {
     /* The image used */
-    background-image: url("/assets/promo/main_1.jpg");
+    background-image: url("/assets/promo/main_pic.jpg");
   
     /* Set a specific height */
     min-height: 300px; 
