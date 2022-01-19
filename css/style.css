@@ -1,44 +1,44 @@
-header{
-    opacity: 0.8;
+header {
+  opacity: 0.8;
 }
-.carousel-item img{
-    height: 640px;
-    width: 168px;
+.carousel-item img {
+  height: 640px;
+  width: 168px;
 }
-.about_section{
-    padding: 80px 0;
-    color: #fff;
-    font-size: 18px;
+.about_section {
+  padding: 80px 0;
+  color: #fff;
+  font-size: 18px;
 }
-.about_section h1{
-    font-size: 20px;
+.about_section h1 {
+  font-size: 20px;
 }
-.stick_design{
-    height: 5px;
-    width: 100px;
-    background-color: #fff;
-    border-radius: 5px;
-    left: 43%;
+.stick_design {
+  height: 5px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  left: 43%;
 }
-.img_bg{
-   height: 600px; 
-   width: 100%;
-   position: sticky;
+.img_bg {
+  height: 600px;
+  width: 100%;
+  position: sticky;
 }
 .parallax {
-    /* The image used */
-    background-image: url("/assets/promo/main_1.jpg");
-  
-    /* Set a specific height */
-    min-height: 300px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-.fab{
-    font-size: 46px;
-    color: orange;
+  /* The image used */
+  background-image: url("../assets/promo/main_1.jpg");
+
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fab {
+  font-size: 46px;
+  color: orange;
 }
