@@ -42,6 +42,7 @@ header {
 }
 .services {
   flex-wrap: wrap;
+  padding: 20px 0;
   /* background-color: #fff; */
 }
 .services__service {
@@ -88,6 +89,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c67af', end
   color: #6C67AF;
   margin-bottom: 10px;
 }
-.footer{
+footer{
     background-color: #404042;
 }
