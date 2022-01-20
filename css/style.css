@@ -30,7 +30,7 @@ header {
   background-image: url("../assets/promo/main_1.jpg");
 
   /* Set a specific height */
-  min-height: 300px;
+  min-height: 250px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -40,6 +40,7 @@ header {
 }
 .services {
   flex-wrap: wrap;
+  background-color: #fff;
 }
 .services__service {
   padding: 10px 10px;
