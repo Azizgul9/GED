@@ -1,5 +1,5 @@
 header {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .carousel-item img {
   height: 640px;
@@ -9,6 +9,7 @@ header {
   padding: 80px 0;
   color: #fff;
   font-size: 18px;
+  background-color: #767676;
 }
 .about_section h1 {
   font-size: 20px;
@@ -37,10 +38,11 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.7;
 }
 .services {
   flex-wrap: wrap;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .services__service {
   padding: 10px 10px;
