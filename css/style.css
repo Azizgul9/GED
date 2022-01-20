@@ -1,10 +1,10 @@
 header {
   opacity: 0.9;
 }
-.carousel-item img {
+/* .carousel-item img {
   height: 640px;
   width: 168px;
-}
+} */
 .about_section {
   padding: 80px 0;
   color: #fff;
@@ -65,10 +65,12 @@ header {
 }
 .services__service a {
     text-decoration:none;
-    padding: 10px;
+    margin-top: 5px;
+    padding: 5px 10px;
     color: #6C67AF;
-    border-radius: 5px;
-    border:0px solid#6C67AF ;
+    font-weight: 300;
+    border-radius: 3px;
+    border:1px solid#6C67AF ;
 }
 .services__service a:hover{ 
     color: #fff;
