@@ -49,6 +49,12 @@ header {
   margin: 10px;
   text-align: center;
   width: 346px;
+  /* border:1px solid#6C67AF ; */
+}
+.services__service:hover{
+    -webkit-box-shadow: 1px 5px 5px 2px rgba(108, 103, 175, 0.75);
+  -moz-box-shadow:    1px 5px 5px 2px rgba(108, 103, 175, 0.75);
+  box-shadow:         1px 5px 5px 2px rgba(108, 103, 175, 0.75);
 }
 .services__service p {
   text-align: left;
@@ -56,8 +62,19 @@ header {
 .services__service h3 {
   margin-bottom: 20px;
 }
+.services__service a {
+    text-decoration:none;
+    padding: 5px;
+    color: #6C67AF;
+    border-radius: 5px;
+    border:1px solid#6C67AF ;
+}
+.services__service a:hover{
+    background-color: #fff;
+  
+}
 .fas {
   font-size: 40px;
-  color: orangered;
+  color: #6C67AF;
   margin-bottom: 10px;
 }
