@@ -1,3 +1,6 @@
+body {
+  background-color: #fff;
+}
 header {
   opacity: 0.9;
 }
@@ -19,7 +22,7 @@ header {
   width: 100px;
   background-color: #fff;
   border-radius: 5px;
-  left: 43%;
+  left: 45%;
 }
 .img_bg {
   height: 600px;
@@ -54,10 +57,10 @@ header {
   /* border:1px solid#6C67AF ; */
   border-radius: 3%;
 }
-.services__service:hover{
-    -webkit-box-shadow: 1px 5px 5px 2px rgba(108, 103, 175, 0.75);
-  -moz-box-shadow:    1px 5px 5px 2px rgba(108, 103, 175, 0.75);
-  box-shadow:         1px 5px 5px 2px rgba(108, 103, 175, 0.75);
+.services__service:hover {
+  -webkit-box-shadow: 1px 5px 5px 2px rgba(108, 103, 175, 0.75);
+  -moz-box-shadow: 1px 5px 5px 2px rgba(108, 103, 175, 0.75);
+  box-shadow: 1px 5px 5px 2px rgba(108, 103, 175, 0.75);
 }
 .services__service p {
   text-align: left;
@@ -66,29 +69,100 @@ header {
   margin-bottom: 20px;
 }
 .services__service a {
-    text-decoration:none;
-    margin-top: 5px;
-    padding: 5px 10px;
-    color: #6C67AF;
-    font-weight: 300;
-    border-radius: 3px;
-    border:0.5px solid#6C67AF ;
+  text-decoration: none;
+  margin-top: 5px;
+  padding: 5px 10px;
+  color: #6c67af;
+  font-weight: 300;
+  border-radius: 3px;
+  border: 0.5px solid#6C67AF;
 }
-.services__service a:hover{ 
-    color: #fff;
+.services__service a:hover {
+  color: #fff;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6c67af+0,7e7bad+39,c7d8e5+100 */
-background: #6c67af; /* Old browsers */
-background: -moz-linear-gradient(left,  #6c67af 0%, #7e7bad 39%, #c7d8e5 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #6c67af 0%,#7e7bad 39%,#c7d8e5 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #6c67af 0%,#7e7bad 39%,#c7d8e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c67af', endColorstr='#c7d8e5',GradientType=0 ); /* IE6-9 */
-
+  background: #6c67af; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #6c67af 0%,
+    #7e7bad 39%,
+    #c7d8e5 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #6c67af 0%,
+    #7e7bad 39%,
+    #c7d8e5 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6c67af 0%,
+    #7e7bad 39%,
+    #c7d8e5 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c67af', endColorstr='#c7d8e5',GradientType=0 ); /* IE6-9 */
 }
 .fas {
   font-size: 40px;
-  color: #6C67AF;
+  color: #6c67af;
   margin-bottom: 10px;
 }
-footer{
-    background-color: #404042;
+.promo_2 {
+  background-color: #404042;
+  color: #ccc;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+.stick_design_2 {
+  position: absolute;
+  height: 5px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  left: 45%;
+}
+.parallax_sm {
+  /* The image used */
+  background-image: url("../assets/promo/project_execution.jpg");
+
+  /* Set a specific height */
+  min-height: 150px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.our_clients {
+  padding: 20px 10px;
+  background-color: #ccc;
+  color: #404042;
+}
+footer {
+  background-color: #404042;
+  font-size: 16px;
+  padding: 20px 0;
+  color: #fff;
+}
+.footer .nav-link {
+  color: #fff;
+  padding: 2px 0;
+}
+.contacts {
+  padding-bottom: 20px;
+}
+.contacts p {
+  padding: 2px;
+  margin: 0;
+}
+.socials a {
+  padding: 0 10px;
+  font-size: 24px;
+  color: #fff;
+}
+.terms {
+  margin-top: 20px;
+  font-size: 10px;
 }
