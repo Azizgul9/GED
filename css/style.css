@@ -4,10 +4,9 @@ body {
 header {
   opacity: 0.9;
 }
-/* .carousel-item img {
-  height: 640px;
-  width: 168px;
-} */
+.carousel-item img {
+  height: 30%;
+}
 .about_section {
   padding: 80px 0;
   color: #fff;
