@@ -175,12 +175,12 @@ header {
   color: #404042;
 }
 .clients {
-  background-color: rgb(223, 223, 223);
+  background-color:#ccc;
 }
-.clients p{
-  text-rendering: optimizeSpeed;
-}
-footer {
+/*Scrolling text*/
+
+/*Scrolling text*/
+.footer {
   background-color: #404042;
   font-size: 16px;
   padding: 20px 0;
@@ -202,7 +202,153 @@ footer {
   font-size: 24px;
   color: #fff;
 }
-.terms {
+.mark {
   margin-top: 20px;
   font-size: 10px;
 }
+.scrolling_text{
+  background-color: #6C67AF;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
