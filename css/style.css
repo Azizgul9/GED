@@ -42,11 +42,11 @@ header {
   background-size: cover;
   /* opacity: 0.8;*/
 }
-.who_we_are{
+.who_we_are_items{
   padding: 10px 0;
   flex-wrap: wrap;
 }
-.our{
+.we_are_item{
   box-sizing: border-box;
   padding: 20px 20px;
   margin: 10px;
@@ -63,6 +63,9 @@ header {
     border-right: 0px solid #ccc;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+  }
+  .parallax {
+    min-height: 150px;
   }
 }
 .services {
