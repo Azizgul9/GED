@@ -49,7 +49,6 @@ header {
 .we_are_item{
   box-sizing: border-box;
   padding: 20px 20px;
-  margin: 10px;
   text-align: center;
   width: 346px;
 }
@@ -75,6 +74,9 @@ header {
   .parallax {
     min-height: 150px;
   }
+}
+@media screen and (max-width: 1115px){
+
 }
 .services {
   flex-wrap: wrap;
@@ -173,7 +175,10 @@ header {
   color: #404042;
 }
 .clients {
-  background-color: #ccc;
+  background-color: rgb(223, 223, 223);
+}
+.clients p{
+  text-rendering: optimizeSpeed;
 }
 footer {
   background-color: #404042;
