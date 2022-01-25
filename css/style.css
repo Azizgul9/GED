@@ -53,6 +53,14 @@ header {
   text-align: center;
   width: 346px;
 }
+.consultants{
+  background-color: #404042;
+  color: #fff;
+}
+.we_are_item:hover{
+  background-color: #404042;
+  color: #fff;
+}
 .vision{
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
