@@ -1,3 +1,14 @@
 .main_promo img {
-  height: 30%;
+  height: 550px;
+  width: 100%;
+}
+.main_promo {
+  position: relative;
+}
+.services {
+  background-color: #ccc;
+}
+.service_items div {
+  padding: 10px;
+  width: 115px;
 }
