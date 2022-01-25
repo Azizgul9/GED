@@ -25,6 +25,6 @@
   border: 0.5px solid #ccc;
 }
 .service_items div:nth-child(odd) {
-  background-color: tomato;
-  color: #404042;
+  background-color: #404042;
+  color: #fff;
 }
