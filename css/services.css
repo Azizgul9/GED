@@ -9,10 +9,12 @@
 .services {
   /* background-color: #404042; */
   color: #fff;
-  padding: 60px 20px 20px;
+  padding: 60px 0px 20px;
 }
 .service_desc {
+  padding: 20px;
   font-size: 26px;
+  background-color: #6c67af;
 }
 @media screen and (max-width: 990px) {
   .service_desc {
