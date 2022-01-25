@@ -1,14 +1,30 @@
-.main_promo img {
-  height: 550px;
-  width: 100%;
-}
 .main_promo {
-  position: relative;
+  min-height: 550px;
+  background-image: url(../assets/promo/services.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .services {
-  background-color: #ccc;
+  /* background-color: #404042; */
+  color: #fff;
+  padding: 60px 20px 20px;
+}
+.service_desc {
+  font-size: 26px;
+}
+@media screen and (max-width: 990px) {
+  .service_desc {
+    font-size: 18px;
+  }
 }
 .service_items div {
-  padding: 10px;
-  width: 115px;
+  padding: 20px 15px;
+  width: 330px;
+  border: 0.5px solid #ccc;
+}
+.service_items div:nth-child(odd) {
+  background-color: tomato;
+  color: #404042;
 }
