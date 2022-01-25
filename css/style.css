@@ -178,7 +178,11 @@ header {
   background-color:#ccc;
 }
 /*Scrolling text*/
-
+.scrolling_text{
+  background-color: #6C67AF;
+  color: #fff;
+  font-weight: bold;
+}
 /*Scrolling text*/
 .footer {
   background-color: #404042;
@@ -202,15 +206,11 @@ header {
   font-size: 24px;
   color: #fff;
 }
-.mark {
+.terms {
   margin-top: 20px;
   font-size: 10px;
 }
-.scrolling_text{
-  background-color: #6C67AF;
-  color: #fff;
-  font-weight: bold;
-}
+
 
 
 
