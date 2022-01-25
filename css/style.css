@@ -11,7 +11,7 @@ header {
   padding: 80px 0;
   color: #fff;
   font-size: 18px;
-  background-color: #404042;
+  background-color: #6c67af;
 }
 .about_section h1 {
   font-size: 20px;
@@ -42,30 +42,30 @@ header {
   background-size: cover;
   /* opacity: 0.8;*/
 }
-.who_we_are_items{
+.who_we_are_items {
   padding: 10px 0;
   flex-wrap: wrap;
 }
-.we_are_item{
+.we_are_item {
   box-sizing: border-box;
   padding: 20px 20px;
   text-align: center;
   width: 346px;
 }
-.consultants{
-  background-color: #404042;
+.consultants {
+  background-color: #6c67af;
   color: #fff;
 }
-.we_are_item:hover{
-  background-color: #404042;
+.we_are_item:hover {
+  background-color: #6c67af;
   color: #fff;
 }
-.vision{
+.vision {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-@media screen and (max-width: 990px){
-  .vision{
+@media screen and (max-width: 990px) {
+  .vision {
     border-left: 0px solid #ccc;
     border-right: 0px solid #ccc;
     border-top: 1px solid #ccc;
@@ -75,8 +75,7 @@ header {
     min-height: 150px;
   }
 }
-@media screen and (max-width: 1115px){
-
+@media screen and (max-width: 1115px) {
 }
 .services {
   flex-wrap: wrap;
@@ -142,8 +141,8 @@ header {
   margin-bottom: 10px;
 }
 .promo_2 {
-  background-color: #404042;
-  color: #ccc;
+  background-color: #6c67af;
+  color: #fff;
   padding: 40px 0;
   text-align: center;
   position: relative;
@@ -175,11 +174,11 @@ header {
   color: #404042;
 }
 .clients {
-  background-color:#ccc;
+  background-color: #ccc;
 }
 /*Scrolling text*/
-.scrolling_text{
-  background-color: #6C67AF;
+.scrolling_text {
+  background-color: #6c67af;
   color: #fff;
   font-weight: bold;
 }
@@ -210,145 +209,3 @@ header {
   margin-top: 20px;
   font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

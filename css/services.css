@@ -29,4 +29,5 @@
 .service_items div:nth-child(odd) {
   background-color: #404042;
   color: #fff;
+  opacity: 0.7;
 }
