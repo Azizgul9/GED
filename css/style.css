@@ -174,7 +174,12 @@ header {
   color: #404042;
 }
 .clients {
+  padding: 10px;
   background-color: #ccc;
+}
+.clients_client {
+  width: 100px;
+  height: 60px;
 }
 /*Scrolling text*/
 .scrolling_text {
