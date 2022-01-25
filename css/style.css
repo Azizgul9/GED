@@ -40,7 +40,30 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
+  /* opacity: 0.8;*/
+}
+.who_we_are{
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+.our{
+  box-sizing: border-box;
+  padding: 20px 20px;
+  margin: 10px;
+  text-align: center;
+  width: 346px;
+}
+.vision{
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+@media screen and (max-width: 990px){
+  .vision{
+    border-left: 0px solid #ccc;
+    border-right: 0px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
 }
 .services {
   flex-wrap: wrap;
