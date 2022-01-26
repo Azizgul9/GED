@@ -177,14 +177,13 @@ header {
   color: #404042;
 }
 .clients {
-  padding: 10px;
+  padding: 20px 0;
   background-color: #ccc;
 }
 .clients_client {
   width: 100px;
   height: 60px;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-right: 15px;
 }
 /*Scrolling text*/
 .scrolling_text {
@@ -215,8 +214,8 @@ header {
   font-size: 24px;
   color: #fff;
 }
-.socials a:hover{
-  color: #6C67AF;
+.socials a:hover {
+  color: #6c67af;
 }
 .terms {
   margin-top: 20px;
