@@ -10,6 +10,16 @@ header {
 .carousel-item img {
   height: 500px;
 }
+/* @media screen and (max-width: 590px) {
+  .carousel-item img {
+    height: 200px;
+  }
+} */
+@media screen and (max-width: 990px) {
+  .carousel-item img {
+    height: 300px;
+  }
+}
 .about_section {
   padding: 80px 0;
   color: #fff;
