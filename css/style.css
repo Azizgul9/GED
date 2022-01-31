@@ -10,14 +10,14 @@ header {
 .carousel-item img {
   height: 500px;
 }
-/* @media screen and (max-width: 590px) {
-  .carousel-item img {
-    height: 200px;
-  }
-} */
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 600px) {
   .carousel-item img {
     height: 300px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .carousel-item img {
+    height: 200px;
   }
 }
 .about_section {
