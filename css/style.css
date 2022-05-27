@@ -7,6 +7,12 @@ body {
 header {
   opacity: 0.9;
 }
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  background: -webkit-linear-gradient(#011727, #41ead4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .carousel-item img {
   height: 500px;
 }
